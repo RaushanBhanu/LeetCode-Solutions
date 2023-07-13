@@ -4,5 +4,4 @@ class Solution:
         if needle in haystack:
             index=haystack.index(needle)
             return index
-        else:
-            return -1
+        return -1
